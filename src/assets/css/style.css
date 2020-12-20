@@ -1,0 +1,22 @@
+body {
+    overflow-x: hidden;
+}
+
+.slick-list {
+    height: 500px;
+}
+
+.cat-links:nth-of-type(1n+2) {
+    position: relative;
+}
+
+.cat-links:nth-of-type(1n+2):before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    left: 0;
+    top: 0;
+    bottom: -3px;
+    background: #000;
+    z-index: 5;
+}
