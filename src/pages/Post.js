@@ -151,7 +151,7 @@ class Post extends Component {
                             ) : null
                         }
 
-                        <div className="mt-5 pt-5 border-top">
+                        <div className="my-5 pt-5 border-top">
                             <h4>Related Posts</h4>
                             <div className="row">
                                 {
